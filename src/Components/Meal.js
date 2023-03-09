@@ -3,7 +3,7 @@ import MealItem from "./MealItem";
 
 const Meal = () => {
 	const [search, setSearch] = useState();
-	const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=a");
+	const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=c");
 	const [show, setShow] = useState(false);
 	const [item, setItem] = useState("");
 
