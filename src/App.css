@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;600;700;800&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body {
+	text-align: center;
+	font-family: "Shantell Sans", serif;
+	background-color: #000000d4;
+}
+
+.content img {
+	width: 100%;
+	height: 600px;
+}
+.content .inner-content {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	font-size: 1.5rem;
+	padding: 2rem;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 05);
+}
+.recipe-details {
+	width: 70%;
+	margin: 2rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ingredients,
+.instructions {
+	flex-basis: 50%;
+	text-align: justify;
+}
+.ingredients h4 {
+	margin-top: 1.5rem;
+	font-weight: bold;
+}
+.video {
+	width: 80%;
+	margin: 3rem auto;
+}
+.indexContainer {
+	display: flex;
+	margin: 2.5rem 0;
+}
