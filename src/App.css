@@ -10,43 +10,40 @@ body {
 	background-color: #000000d4;
 }
 
-.content img {
+.modal {
+	font-size: 12.5px;
+	border-radius: 10px;
+	max-height: 95vh;
+	overflow-y: auto;
+}
+.modal > .header {
 	width: 100%;
-	height: 600px;
-}
-.content .inner-content {
-	background-color: rgba(255, 255, 255, 0.8);
-	color: black;
-	font-size: 1.5rem;
-	padding: 2rem;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
 	text-align: center;
+	padding: 5px;
+}
+.modal > .content {
+	text-align: left;
+	width: 100%;
+	padding: 10px 5px;
+}
+.modal > .actions {
+	width: 100%;
+	padding: 10px 5px;
+	margin: auto;
+	text-align: center;
+}
+.modal > .close {
+	cursor: pointer;
 	position: absolute;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 05);
-}
-.recipe-details {
-	width: 70%;
-	margin: 2rem auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.ingredients,
-.instructions {
-	flex-basis: 50%;
-	text-align: justify;
-}
-.ingredients h4 {
-	margin-top: 1.5rem;
-	font-weight: bold;
-}
-.video {
-	width: 80%;
-	margin: 3rem auto;
-}
-.indexContainer {
-	display: flex;
-	margin: 2.5rem 0;
+	display: block;
+	padding: 2px 5px;
+	line-height: 20px;
+	right: -10px;
+	top: -10px;
+	font-size: 24px;
+	background: #ffffff;
+	border-radius: 18px;
+	border: 1px solid #cfcece;
 }
